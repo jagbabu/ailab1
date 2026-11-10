@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
         - name: ai-demo-api
-          image: ai-demo-api:v2
-          imagePullPolicy: IfNotPresent
+          image: ghcr.io/jagbabu/ailab1:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 8000
 ---
